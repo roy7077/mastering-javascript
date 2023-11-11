@@ -18,3 +18,4 @@ Promise.resolve("foo")
     console.log(string);
 })
 
+console.log("END");
