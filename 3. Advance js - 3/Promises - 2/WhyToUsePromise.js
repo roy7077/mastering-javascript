@@ -19,7 +19,7 @@ Download("www.xyz.com",(data)=>{
 
 /*
   we are passing callback to the function ,
-  we are not call that function, we are not 
+  we are not calling that function, we are not 
   controling that function ,
   so to avoid this thing we use promises
 */

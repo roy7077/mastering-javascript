@@ -1,7 +1,7 @@
 console.log("start of the file");
 
 setTimeout(() => {
-    console.log("timer 1 dome");
+    console.log("timer 1 done");
 }, 0);
 
 for(let i=0;i<1000000000;i++){
@@ -24,5 +24,5 @@ console.log("End of the file");
 // start of the file
 // End of the file
 // Whose promise ?  sagar's promise    
-// timer 1 dome
-// timer 2 doneh
+// timer 1 done
+// timer 2 done

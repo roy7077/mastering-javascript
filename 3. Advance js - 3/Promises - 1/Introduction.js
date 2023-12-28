@@ -95,7 +95,6 @@ function createPromiseExample3(){
       })
 }
 
-//it will wait for for loop to execute
 let k=createPromiseExample3();
 console.log(k);
 //output =>
@@ -124,7 +123,6 @@ function createPromiseExample4(){
       })
 }
 
-//it will wait for for loop to execute
 let l=createPromiseExample4();
 console.log(l);
 //output =>
