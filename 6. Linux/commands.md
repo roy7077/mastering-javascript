@@ -45,3 +45,27 @@ you can use normal right , left , up and down arrow keys as well to navigate.
 tail -n 3 <filename> - print last 3 lines of filename
 head -n 3 <filename> - print initial 3 lines of filename
 
+/*---------------------------------*/
+ls | grep python : this will actually pass the output of ls as an input to grep , grep does a substring search of python on the output of ls.
+
+ls > new.txt : whatever is the result of ls will be dumped into new.txt , nothing will be printed on the console. if new.txt has some content already then that will be replaced.
+
+ls >> new.txt : whatever is the result of ls will be dumped into new.txt , nothing will be printed on the console. if new.txt has some content already then the new content will be appended.
+
+<command 1> && <command 2> : this excutes command 1 followed by command 2 considering command 1 has no errors.
+  example -> g++ permutation.cpp --std=c++14 -o run && ./run 
+
+/*----------copy , move ,rename ,zip----------*/
+
+cp file1 file2 : copies the content of file1 to file2
+
+mv file1 file2 : moves the content of file1 to file2
+
+mv file1 file2 : moves (cut paste) the file1 to new position as file2. this can also help us to rename the file.
+
+tar -cf archive.zip 1.txt 2.txt : this command will add all the files mentioned after archive.zip into zipped archive as mentioned
+
+tar -zcf archived.zip 1.txt 2.txt : this command will not only add the files to zip but also compress them.
+
+tar xf archive1.zip -C extract : all the content of archive1 will be extracted into the extracted folder.
+
