@@ -6,7 +6,7 @@ Node js
 
 /*--Relationship between Runtime and Framework:--*/
 
-* A framework is typically used during the     development phase to provide a structure and set of tools for building an application.
+* A framework is typically used during the development phase to provide a structure and set of tools for building an application.
 
 * The runtime, on the other hand, comes into play when the developed application is executed by end-users.
 
